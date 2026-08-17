@@ -1,66 +1,93 @@
-<h1 align="center">Hi there, I'm Zakaria! 👋</h1>
+<h1 align="center">Zakaria Dbaba</h1>
 
 <p align="center">
-  <em>Fullstack Software Engineer | Java & Spring Boot | Angular & TypeScript | DevOps Enthusiast</em>
+  <strong>Backend Java / Cloud-Native Software Engineer</strong><br/>
+  Java 21 • Spring Boot 3 • Kafka • Kubernetes • AWS
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/zakaria-dbaba/">LinkedIn</a> •
+  <a href="https://zakariadbaba.netlify.app/">Portfolio</a> •
+  <a href="mailto:zakaria-dbaba@hotmail.com">Email</a>
 </p>
 
 ---
 
-### 🙋‍♂️ About Me
+## About
 
-- 🔭 I’m passionate about **building end-to-end applications** using Java, Spring Boot, and Angular.  
-- 🌱 Currently exploring **Cloud & DevOps** tools like Docker, Kubernetes, and GitHub Actions.  
-- 🤝 I love **collaborating on Open Source** projects and sharing knowledge.  
-- 💬 Ask me about **Java**, **Spring**, **Angular**, **Docker**, or **CI/CD** pipelines!
+I build backend systems with a focus on **Java, Spring Boot, event-driven architecture and cloud-native delivery**.
 
----
+My main interests are reliable APIs, distributed systems, asynchronous processing, containerized workloads and production-ready engineering practices.
 
-### 🛠️ Tech Stack
+I currently focus on:
 
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white" alt="Angular" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white" alt="GitHub Actions" />
-</p>
+- Backend services with **Java 17/21** and **Spring Boot 3**
+- REST APIs, microservices and **event-driven systems with Apache Kafka**
+- Persistence with **PostgreSQL / SQL** and Hibernate
+- **Docker & Kubernetes** workloads
+- Cloud infrastructure and delivery on **AWS**
+- CI/CD, testing, observability and maintainable architecture
 
 ---
 
-### 🔗 Links
+## Core Stack
 
-- **Portfolio Website**: [https://zakariadbaba.netlify.app/](https://zakariadbaba.netlify.app/)
-- **LinkedIn**: [linkedin.com/in/zakaria-dbaba](https://www.linkedin.com/in/zakaria-dbaba/)
-- **Email**: [zakaria-dbaba@hotmail.com](mailto:zakaria-dbaba@hotmail.com)
+### Backend
+`Java` `Spring Boot` `Spring Cloud` `Hibernate` `REST APIs` `Microservices`
 
----
+### Messaging & Data
+`Apache Kafka` `PostgreSQL` `SQL`
 
-### 🚀 Featured Projects
+### Cloud & Platform
+`AWS` `Docker` `Kubernetes` `Terraform` `CI/CD`
 
-- **[Project 1](#)** – A brief description of your project.  
-- **[Project 2](#)** – A brief description of your project.  
-- **[Project 3](#)** – A brief description of your project.
-
-Check out more in my [pinned repositories](#).
+### Engineering Practices
+`DDD` `Hexagonal Architecture` `TDD` `Testcontainers` `Git`
 
 ---
 
-### 📊 GitHub Stats
+## Engineering Focus
+
+```text
+Backend Engineering
+├── Java / Spring Boot
+├── REST & distributed services
+├── Kafka / event-driven architecture
+└── SQL / persistence
+
+Cloud-Native
+├── Docker
+├── Kubernetes
+├── AWS
+├── Terraform
+└── CI/CD
+
+Quality
+├── Automated testing
+├── Testcontainers
+├── Clean architecture
+└── Observability
+```
+
+---
+
+## Current GitHub Work
+
+- **[neetcode-submissions](https://github.com/zakaria-source/neetcode-submissions)** — Java problem-solving and data-structure practice.
+- **[spring-petclinic](https://github.com/zakaria-source/spring-petclinic)** — Spring ecosystem exploration based on the official Petclinic project.
+
+> I am progressively replacing older learning repositories with production-style backend projects that better reflect my current Java / cloud-native work.
+
+---
+
+## What I Want This GitHub To Show
+
+I use this profile to document engineering work that is useful to discuss in technical interviews: architecture decisions, clean APIs, messaging patterns, testing strategy, containerization and cloud deployment.
+
+My priority is **depth over repository count** — fewer projects, but each one documented and technically meaningful.
+
+---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zakaria-source&show_icons=true&theme=default" alt="GitHub Stats" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakaria-source&layout=compact&theme=default" alt="Top Languages" height="160"/>
-</p>
-
----
-
-### 🤝 Contributions
-
-I’m always open to **collaborations** on interesting projects. If you want to brainstorm ideas or work together, feel free to **reach out**! 
-
----
-
-<p align="center">
-  <em>“Code is like humor. When you have to explain it, it’s bad.” – Cory House</em>
+  <strong>Java • Spring Boot • Kafka • Kubernetes • AWS</strong>
 </p>
