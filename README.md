@@ -15,27 +15,22 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/zakaria-dbaba/">LinkedIn</a> ·
-  <a href="https://zakariadbaba.netlify.app/">Portfolio</a> ·
-  <a href="mailto:zakaria-dbaba@hotmail.com">Email</a>
+  <a href="https://zakariadbaba.netlify.app/">Portfolio</a>
 </p>
 
 ---
 
-## 👋 About
+## About
 
 Software Engineer with around **4 years of professional experience**, focused on **Java/Spring Boot backend systems, distributed architectures and cloud-native delivery**.
 
 I like building systems that remain understandable when the happy path disappears: duplicate Kafka messages, partial failures, retries, concurrent workers, database/message consistency, observability and production deployment.
 
-**Current focus:** Java 21 · Spring Boot 3 · Kafka · PostgreSQL · Docker · Kubernetes · AWS · Terraform · Testcontainers · OpenTelemetry
-
----
-
-## 🚀 Featured Work
+## Featured Work
 
 ### EventFlow — Event-Driven Order Processing Platform
 
-> **Flagship backend project** — built around real distributed-system failure modes rather than CRUD screens.
+> **Flagship backend project** built around real distributed-system failure modes rather than CRUD screens.
 
 **Java 21 · Spring Boot 3 · Kafka · PostgreSQL · Flyway · Testcontainers · OpenTelemetry · Docker · Kubernetes**
 
@@ -48,7 +43,7 @@ I like building systems that remain understandable when the happy path disappear
 - Kubernetes manifests, observability and GitHub Actions CI
 - Architecture Decision Records explaining the trade-offs
 
-**[Explore the repository →](https://github.com/zakaria-source/eventflow)**
+**[Explore EventFlow →](https://github.com/zakaria-source/eventflow)**
 
 ### TrackMyJob — Job Application Dashboard
 
@@ -60,11 +55,9 @@ A modern application for tracking applications, follow-ups, interviews and job-s
 
 <sub>The source repository is currently private; the public demo is linked intentionally.</sub>
 
----
+## Engineering Focus
 
-## 🧩 Engineering Focus
-
-| Area | What I work with |
+| Area | Technologies & practices |
 |---|---|
 | **Backend** | Java 17/21, Spring Boot 3, Spring Cloud, Hibernate, REST APIs |
 | **Architecture** | Microservices, Event-Driven Architecture, DDD, Hexagonal Architecture |
@@ -74,19 +67,10 @@ A modern application for tracking applications, follow-ups, interviews and job-s
 | **Cloud & Platform** | AWS, Docker, Kubernetes, Terraform |
 | **Delivery & Quality** | GitHub Actions, Jenkins, JUnit, TDD, Testcontainers |
 
----
+## Engineering Principles
 
-## 🔍 What I Optimize For
-
-- **Correctness under failure**, not just the happy path
-- **Clear architectural boundaries** between domain logic and infrastructure
-- **Observable services** that can be diagnosed in production
-- **Automated integration tests** around critical behavior
-- **Simple designs first**, adding complexity only when the problem justifies it
-
----
-
-<p align="center">
-  <strong>Open to Backend Java, Platform and Cloud-Native engineering opportunities.</strong><br/>
-  Paris, France · <a href="https://www.linkedin.com/in/zakaria-dbaba/">LinkedIn</a> · <a href="mailto:zakaria-dbaba@hotmail.com">Email</a>
-</p>
+- Correctness under failure, not just the happy path
+- Clear architectural boundaries between domain logic and infrastructure
+- Observable services that can be diagnosed in production
+- Automated integration tests around critical behavior
+- Simple designs first, adding complexity only when the problem justifies it
