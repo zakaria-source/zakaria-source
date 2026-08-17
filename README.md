@@ -13,81 +13,77 @@
 
 ---
 
-## About
+## About Me
 
-I build backend systems with a focus on **Java, Spring Boot, event-driven architecture and cloud-native delivery**.
+Software Engineer with around **4 years of professional experience**, focused on backend development and cloud-native systems.
 
-My main interests are reliable APIs, distributed systems, asynchronous processing, containerized workloads and production-ready engineering practices.
+I work primarily with **Java and Spring Boot**, building APIs and distributed services with an emphasis on maintainability, reliability and production readiness. I am particularly interested in event-driven architectures, Kafka-based systems, container orchestration and the engineering decisions behind scalable backend platforms.
 
-I currently focus on:
+```text
+Java / Spring Boot  →  APIs & Microservices  →  Kafka  →  Kubernetes  →  Cloud
+```
+
+## What I Build
 
 - Backend services with **Java 17/21** and **Spring Boot 3**
-- REST APIs, microservices and **event-driven systems with Apache Kafka**
-- Persistence with **PostgreSQL / SQL** and Hibernate
-- **Docker & Kubernetes** workloads
-- Cloud infrastructure and delivery on **AWS**
-- CI/CD, testing, observability and maintainable architecture
-
----
+- REST APIs and microservice-based systems
+- Event-driven workflows with **Apache Kafka**
+- Persistence layers with **PostgreSQL, SQL and Hibernate**
+- Containerized workloads with **Docker and Kubernetes**
+- Cloud-native delivery on **AWS**
+- Automated CI/CD pipelines and infrastructure with **Terraform**
+- Testable systems using **TDD, integration tests and Testcontainers**
 
 ## Core Stack
 
-### Backend
-`Java` `Spring Boot` `Spring Cloud` `Hibernate` `REST APIs` `Microservices`
+| Area | Technologies |
+|---|---|
+| Backend | Java 17/21, Spring Boot 3, Spring Cloud, Hibernate |
+| Architecture | REST, Microservices, Event-Driven Architecture, DDD, Hexagonal Architecture |
+| Messaging & Data | Apache Kafka, PostgreSQL, SQL |
+| Cloud & Platform | AWS, Docker, Kubernetes, Terraform |
+| Delivery | Git, CI/CD, GitHub Actions, Jenkins |
+| Quality | JUnit, TDD, Testcontainers, Integration Testing |
 
-### Messaging & Data
-`Apache Kafka` `PostgreSQL` `SQL`
+## Engineering Principles
 
-### Cloud & Platform
-`AWS` `Docker` `Kubernetes` `Terraform` `CI/CD`
+I prefer systems where architectural decisions are explicit and explainable:
 
-### Engineering Practices
-`DDD` `Hexagonal Architecture` `TDD` `Testcontainers` `Git`
+- **Clear boundaries** between domain logic and infrastructure
+- **Asynchronous communication** when it genuinely improves decoupling and resilience
+- **Automated tests** around critical behavior and integration boundaries
+- **Observable services** that can be diagnosed in production
+- **Infrastructure as code** and reproducible deployments
+- **Simple designs first**, with complexity introduced only when the problem justifies it
 
----
+## Current Focus
 
-## Engineering Focus
+I am progressively concentrating this GitHub around fewer, deeper projects that demonstrate real backend engineering decisions rather than collecting small tutorial repositories.
 
-```text
-Backend Engineering
-├── Java / Spring Boot
-├── REST & distributed services
-├── Kafka / event-driven architecture
-└── SQL / persistence
+Current areas of work include:
 
-Cloud-Native
-├── Docker
-├── Kubernetes
-├── AWS
-├── Terraform
-└── CI/CD
+- Java / Spring Boot system design
+- Kafka reliability patterns and asynchronous processing
+- Kubernetes deployment and operational concerns
+- Cloud-native architecture on AWS
+- Data structures and algorithm practice in Java
 
-Quality
-├── Automated testing
-├── Testcontainers
-├── Clean architecture
-└── Observability
-```
+## Beyond Backend
 
----
+I also build supporting frontend tools when useful. One example is **JobTrackr**, an Angular application for tracking job applications, response metrics, follow-ups and upcoming interviews.
 
-## Current GitHub Work
+**Live demo:** https://trackmyjob-zakaria.netlify.app/
 
-- **[neetcode-submissions](https://github.com/zakaria-source/neetcode-submissions)** — Java problem-solving and data-structure practice.
-- **[spring-petclinic](https://github.com/zakaria-source/spring-petclinic)** — Spring ecosystem exploration based on the official Petclinic project.
+## Contact
 
-> I am progressively replacing older learning repositories with production-style backend projects that better reflect my current Java / cloud-native work.
+I am open to backend Java, platform and cloud-native engineering opportunities.
 
----
-
-## What I Want This GitHub To Show
-
-I use this profile to document engineering work that is useful to discuss in technical interviews: architecture decisions, clean APIs, messaging patterns, testing strategy, containerization and cloud deployment.
-
-My priority is **depth over repository count** — fewer projects, but each one documented and technically meaningful.
+- LinkedIn: https://www.linkedin.com/in/zakaria-dbaba/
+- Portfolio: https://zakariadbaba.netlify.app/
+- Email: zakaria-dbaba@hotmail.com
 
 ---
 
 <p align="center">
-  <strong>Java • Spring Boot • Kafka • Kubernetes • AWS</strong>
+  <strong>Backend engineering • Distributed systems • Cloud-native delivery</strong>
 </p>
