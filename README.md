@@ -1,121 +1,92 @@
 <h1 align="center">Zakaria Dbaba</h1>
 
 <p align="center">
-  <strong>Backend Java / Cloud-Native Software Engineer</strong><br/>
-  Java 21 • Spring Boot 3 • Kafka • Kubernetes • AWS
+  <strong>Backend Java & Cloud-Native Software Engineer</strong><br/>
+  Distributed systems · Event-driven architecture · Production-ready backend
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/zakaria-dbaba/">LinkedIn</a> •
-  <a href="https://zakariadbaba.netlify.app/">Portfolio</a> •
+  <img src="https://img.shields.io/badge/Java-21-007396?style=flat-square" alt="Java 21" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-3-6DB33F?style=flat-square" alt="Spring Boot 3" />
+  <img src="https://img.shields.io/badge/Apache%20Kafka-Event--Driven-231F20?style=flat-square" alt="Apache Kafka" />
+  <img src="https://img.shields.io/badge/Kubernetes-Cloud--Native-326CE5?style=flat-square" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/AWS-Cloud-FF9900?style=flat-square" alt="AWS" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/zakaria-dbaba/">LinkedIn</a> ·
+  <a href="https://zakariadbaba.netlify.app/">Portfolio</a> ·
   <a href="mailto:zakaria-dbaba@hotmail.com">Email</a>
 </p>
 
 ---
 
-## About Me
+## 👋 About
 
-Software Engineer with around **4 years of professional experience**, focused on backend development and cloud-native systems.
+Software Engineer with around **4 years of professional experience**, focused on **Java/Spring Boot backend systems, distributed architectures and cloud-native delivery**.
 
-I work primarily with **Java and Spring Boot**, building APIs and distributed services with an emphasis on consistency, reliability, observability and production readiness. I am particularly interested in event-driven architectures, Kafka-based systems, container orchestration and the engineering decisions behind scalable backend platforms.
+I like building systems that remain understandable when the happy path disappears: duplicate Kafka messages, partial failures, retries, concurrent workers, database/message consistency, observability and production deployment.
 
-```text
-Java / Spring Boot  →  Distributed Systems  →  Kafka  →  Kubernetes  →  Cloud
-```
+**Current focus:** Java 21 · Spring Boot 3 · Kafka · PostgreSQL · Docker · Kubernetes · AWS · Terraform · Testcontainers · OpenTelemetry
 
-## Featured Project
+---
 
-### [EventFlow](https://github.com/zakaria-source/eventflow) — Event-Driven Order Processing Platform
+## 🚀 Featured Work
 
-A production-style Java backend built around the failure modes that appear in real distributed systems rather than around CRUD screens.
+### EventFlow — Event-Driven Order Processing Platform
+
+> **Flagship backend project** — built around real distributed-system failure modes rather than CRUD screens.
 
 **Java 21 · Spring Boot 3 · Kafka · PostgreSQL · Flyway · Testcontainers · OpenTelemetry · Docker · Kubernetes**
 
-What it demonstrates:
+- Transactional Outbox for PostgreSQL/Kafka consistency
+- Multi-replica workers with `FOR UPDATE SKIP LOCKED` + expiring leases
+- At-least-once delivery with concurrency-safe consumer idempotency
+- Bounded retries with separate publisher and consumer dead-letter flows
+- W3C trace propagation across HTTP → PostgreSQL → Kafka → consumer
+- Integration tests against real PostgreSQL and Kafka with Testcontainers
+- Kubernetes manifests, observability and GitHub Actions CI
+- Architecture Decision Records explaining the trade-offs
 
-- **Transactional Outbox** for PostgreSQL/Kafka consistency
-- Multi-replica outbox workers using **`FOR UPDATE SKIP LOCKED` + expiring claim leases**
-- **At-least-once delivery** with atomic, concurrency-safe consumer idempotency
-- Separate **publisher DLT** and **consumer poison-message DLT** with bounded retries
-- W3C trace-context propagation across **HTTP → PostgreSQL Outbox → Kafka → Consumer**
-- Micrometer / OpenTelemetry tracing, Prometheus metrics and Actuator health probes
-- Flyway-managed schema evolution
-- Real PostgreSQL + Kafka integration tests with **Testcontainers**
-- Docker Compose, Kubernetes manifests and GitHub Actions CI
-- Architecture Decision Records documenting the trade-offs
-
-The test suite includes concurrent duplicate delivery, concurrent outbox claiming, lease recovery after simulated worker failure, end-to-end Kafka projection, trace-context persistence and poison-message recovery.
-
-→ **[Explore EventFlow](https://github.com/zakaria-source/eventflow)**
+**[Explore the repository →](https://github.com/zakaria-source/eventflow)**
 
 ### TrackMyJob — Job Application Dashboard
 
-A supporting frontend project for tracking applications, response metrics, follow-ups and upcoming interviews.
+A modern application for tracking applications, follow-ups, interviews and job-search metrics.
 
 **Angular 19 · TypeScript · RxJS · Angular Material · Chart.js**
 
-→ **[Live demo](https://trackmyjob-zakaria.netlify.app/)**
+**[Open the live demo →](https://trackmyjob-zakaria.netlify.app/)**
 
-> The source repository is currently private; the public demo is linked here intentionally.
+<sub>The source repository is currently private; the public demo is linked intentionally.</sub>
 
-## What I Build
+---
 
-- Backend services with **Java 17/21** and **Spring Boot 3**
-- REST APIs and distributed service architectures
-- Event-driven workflows with **Apache Kafka**
-- Persistence layers with **PostgreSQL, SQL and Hibernate**
-- Containerized workloads with **Docker and Kubernetes**
-- Cloud-native delivery on **AWS**
-- Automated CI/CD pipelines and infrastructure with **Terraform**
-- Testable systems using **JUnit, TDD, integration tests and Testcontainers**
+## 🧩 Engineering Focus
 
-## Core Stack
-
-| Area | Technologies |
+| Area | What I work with |
 |---|---|
-| Backend | Java 17/21, Spring Boot 3, Spring Cloud, Hibernate |
-| Architecture | REST, Microservices, Event-Driven Architecture, DDD, Hexagonal Architecture |
-| Messaging & Data | Apache Kafka, PostgreSQL, SQL |
-| Reliability | Transactional Outbox, Idempotency, Retry/DLT, Failure Recovery |
-| Observability | Micrometer, OpenTelemetry, Prometheus, Actuator |
-| Cloud & Platform | AWS, Docker, Kubernetes, Terraform |
-| Delivery | Git, CI/CD, GitHub Actions, Jenkins |
-| Quality | JUnit, TDD, Testcontainers, Integration Testing |
+| **Backend** | Java 17/21, Spring Boot 3, Spring Cloud, Hibernate, REST APIs |
+| **Architecture** | Microservices, Event-Driven Architecture, DDD, Hexagonal Architecture |
+| **Messaging & Data** | Apache Kafka, PostgreSQL, SQL |
+| **Reliability** | Transactional Outbox, Idempotency, Retry/DLT, Failure Recovery |
+| **Observability** | Micrometer, OpenTelemetry, Prometheus, Actuator |
+| **Cloud & Platform** | AWS, Docker, Kubernetes, Terraform |
+| **Delivery & Quality** | GitHub Actions, Jenkins, JUnit, TDD, Testcontainers |
 
-## Engineering Principles
+---
 
-I prefer systems where architectural decisions are explicit and explainable:
+## 🔍 What I Optimize For
 
-- **Consistency before convenience** when data crosses system boundaries
-- **Idempotency by design** for at-least-once messaging
-- **Clear boundaries** between domain logic and infrastructure
-- **Bounded failure handling** instead of infinite retries
-- **Automated tests** around critical behavior and integration boundaries
+- **Correctness under failure**, not just the happy path
+- **Clear architectural boundaries** between domain logic and infrastructure
 - **Observable services** that can be diagnosed in production
-- **Simple designs first**, with complexity introduced only when the problem justifies it
-
-## Current Focus
-
-I am concentrating this GitHub around fewer, deeper projects that demonstrate real backend engineering decisions rather than collecting small tutorial repositories.
-
-Current areas of work include:
-
-- Java / Spring Boot system design
-- Kafka reliability and distributed-systems patterns
-- Kubernetes deployment and operational concerns
-- Cloud-native architecture on AWS
-- Data structures and algorithm practice in Java
-
-## Contact
-
-I am open to backend Java, platform and cloud-native engineering opportunities.
-
-- LinkedIn: https://www.linkedin.com/in/zakaria-dbaba/
-- Portfolio: https://zakariadbaba.netlify.app/
-- Email: zakaria-dbaba@hotmail.com
+- **Automated integration tests** around critical behavior
+- **Simple designs first**, adding complexity only when the problem justifies it
 
 ---
 
 <p align="center">
-  <strong>Backend engineering • Distributed systems • Cloud-native delivery</strong>
+  <strong>Open to Backend Java, Platform and Cloud-Native engineering opportunities.</strong><br/>
+  Paris, France · <a href="https://www.linkedin.com/in/zakaria-dbaba/">LinkedIn</a> · <a href="mailto:zakaria-dbaba@hotmail.com">Email</a>
 </p>
