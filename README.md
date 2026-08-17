@@ -23,6 +23,34 @@ I work primarily with **Java and Spring Boot**, building APIs and distributed se
 Java / Spring Boot  →  APIs & Microservices  →  Kafka  →  Kubernetes  →  Cloud
 ```
 
+## Featured Projects
+
+### [EventFlow](https://github.com/zakaria-source/eventflow) — Event-Driven Order Processing Platform
+
+Production-style backend project focused on distributed-systems problems rather than CRUD.
+
+**Java 21 · Spring Boot 3 · Kafka · PostgreSQL · Flyway · Testcontainers · Docker · Kubernetes**
+
+Key engineering topics:
+
+- Transactional Outbox Pattern for DB/Kafka consistency
+- At-least-once delivery and idempotent consumers
+- Retry strategy and dead-letter handling
+- Hexagonal architecture and explicit dependency boundaries
+- PostgreSQL integration tests with Testcontainers
+- Actuator/Prometheus observability
+- Docker Compose, Kubernetes manifests and GitHub Actions CI
+
+→ **[Explore EventFlow](https://github.com/zakaria-source/eventflow)**
+
+### [Job Application Tracker](https://github.com/zakaria-source/job-application-tracker) — Angular Dashboard
+
+Supporting frontend project for tracking job applications, response metrics, follow-ups and upcoming interviews.
+
+**Angular 19 · TypeScript · RxJS · Angular Material · Chart.js**
+
+**Live demo:** https://trackmyjob-zakaria.netlify.app/
+
 ## What I Build
 
 - Backend services with **Java 17/21** and **Spring Boot 3**
@@ -67,12 +95,6 @@ Current areas of work include:
 - Kubernetes deployment and operational concerns
 - Cloud-native architecture on AWS
 - Data structures and algorithm practice in Java
-
-## Beyond Backend
-
-I also build supporting frontend tools when useful. One example is **JobTrackr**, an Angular application for tracking job applications, response metrics, follow-ups and upcoming interviews.
-
-**Live demo:** https://trackmyjob-zakaria.netlify.app/
 
 ## Contact
 
