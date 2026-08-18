@@ -2,75 +2,54 @@
 
 <p align="center">
   <strong>Backend Java & Cloud-Native Software Engineer</strong><br/>
-  Distributed systems · Event-driven architecture · Production-ready backend
+  Paris, France · ~4 years of experience
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-21-007396?style=flat-square" alt="Java 21" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-3-6DB33F?style=flat-square" alt="Spring Boot 3" />
-  <img src="https://img.shields.io/badge/Apache%20Kafka-Event--Driven-231F20?style=flat-square" alt="Apache Kafka" />
-  <img src="https://img.shields.io/badge/Kubernetes-Cloud--Native-326CE5?style=flat-square" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/AWS-Cloud-FF9900?style=flat-square" alt="AWS" />
+  Java 21 · Spring Boot 3 · Kafka · PostgreSQL · Kubernetes · AWS
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/zakaria-dbaba/">LinkedIn</a> ·
-  <a href="https://zakariadbaba.netlify.app/">Portfolio</a>
+  <a href="https://zakariadbaba.netlify.app/">Portfolio</a> ·
+  <a href="https://github.com/zakaria-source/eventflow">EventFlow</a>
 </p>
 
 ---
 
 ## About
 
-Software Engineer with around **4 years of professional experience**, focused on **Java/Spring Boot backend systems, distributed architectures and cloud-native delivery**.
+Backend-focused Software Engineer building **Java/Spring Boot systems, event-driven architectures and cloud-native applications**.
 
-I like building systems that remain understandable when the happy path disappears: duplicate Kafka messages, partial failures, retries, concurrent workers, database/message consistency, observability and production deployment.
+I care about reliability beyond the happy path: retries, idempotency, concurrency, distributed consistency, observability and production delivery.
 
-## Featured Work
+## Featured Projects
 
-### EventFlow — Event-Driven Order Processing Platform
+### EventFlow
 
-> **Flagship backend project** built around real distributed-system failure modes rather than CRUD screens.
+Production-style event-driven order processing platform.
 
-**Java 21 · Spring Boot 3 · Kafka · PostgreSQL · Flyway · Testcontainers · OpenTelemetry · Docker · Kubernetes**
+`Java 21` · `Spring Boot` · `Kafka` · `PostgreSQL` · `Testcontainers` · `OpenTelemetry` · `Kubernetes`
 
-- Transactional Outbox for PostgreSQL/Kafka consistency
-- Multi-replica workers with `FOR UPDATE SKIP LOCKED` + expiring leases
-- At-least-once delivery with concurrency-safe consumer idempotency
-- Bounded retries with separate publisher and consumer dead-letter flows
-- W3C trace propagation across HTTP → PostgreSQL → Kafka → consumer
-- Integration tests against real PostgreSQL and Kafka with Testcontainers
-- Kubernetes manifests, observability and GitHub Actions CI
-- Architecture Decision Records explaining the trade-offs
+- Transactional Outbox and Kafka reliability patterns
+- Concurrency-safe idempotency and multi-replica processing
+- Retry/DLT handling and distributed tracing
+- Integration tests with real PostgreSQL and Kafka
 
-**[Explore EventFlow →](https://github.com/zakaria-source/eventflow)**
+**[View repository →](https://github.com/zakaria-source/eventflow)**
 
-### TrackMyJob — Job Application Dashboard
+### TrackMyJob
 
-A modern application for tracking applications, follow-ups, interviews and job-search metrics.
+Job application dashboard for tracking applications, follow-ups, interviews and metrics.
 
-**Angular 19 · TypeScript · RxJS · Angular Material · Chart.js**
+**[Live demo →](https://trackmyjob-zakaria.netlify.app/)**
 
-**[Open the live demo →](https://trackmyjob-zakaria.netlify.app/)**
+## Core Stack
 
-<sub>The source repository is currently private; the public demo is linked intentionally.</sub>
+| Backend | Architecture | Cloud & Delivery |
+|---|---|---|
+| Java 17/21, Spring Boot, Hibernate, REST | Kafka, Microservices, DDD, Hexagonal Architecture | AWS, Docker, Kubernetes, Terraform, GitHub Actions |
 
-## Engineering Focus
+## Interview Practice
 
-| Area | Technologies & practices |
-|---|---|
-| **Backend** | Java 17/21, Spring Boot 3, Spring Cloud, Hibernate, REST APIs |
-| **Architecture** | Microservices, Event-Driven Architecture, DDD, Hexagonal Architecture |
-| **Messaging & Data** | Apache Kafka, PostgreSQL, SQL |
-| **Reliability** | Transactional Outbox, Idempotency, Retry/DLT, Failure Recovery |
-| **Observability** | Micrometer, OpenTelemetry, Prometheus, Actuator |
-| **Cloud & Platform** | AWS, Docker, Kubernetes, Terraform |
-| **Delivery & Quality** | GitHub Actions, Jenkins, JUnit, TDD, Testcontainers |
-
-## Engineering Principles
-
-- Correctness under failure, not just the happy path
-- Clear architectural boundaries between domain logic and infrastructure
-- Observable services that can be diagnosed in production
-- Automated integration tests around critical behavior
-- Simple designs first, adding complexity only when the problem justifies it
+Java data structures & algorithms: **[NeetCode submissions →](https://github.com/zakaria-source/neetcode-submissions)**
