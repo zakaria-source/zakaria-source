@@ -33,7 +33,7 @@ Production-style event-driven order processing platform focused on distributed-s
 
 ### NeetCode Java Practice
 
-Structured Java data structures & algorithms practice for technical interviews.
+Java interview practice synced from NeetCode, focused on reusable data-structure and algorithm patterns.
 
 **[View submissions →](https://github.com/zakaria-source/neetcode-submissions)**
 
