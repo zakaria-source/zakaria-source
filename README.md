@@ -11,23 +11,16 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/zakaria-dbaba/">LinkedIn</a> ·
-  <a href="https://zakariadbaba.netlify.app/">Portfolio</a> ·
-  <a href="https://github.com/zakaria-source/eventflow">EventFlow</a>
+  <a href="https://zakariadbaba.netlify.app/">Portfolio</a>
 </p>
 
 ---
 
-## About
-
-Backend-focused Software Engineer building **Java/Spring Boot systems, event-driven architectures and cloud-native applications**.
-
-I care about reliability beyond the happy path: retries, idempotency, concurrency, distributed consistency, observability and production delivery.
-
-## Featured Projects
+## Active Projects
 
 ### EventFlow
 
-Production-style event-driven order processing platform.
+Production-style event-driven order processing platform focused on distributed-system reliability.
 
 `Java 21` · `Spring Boot` · `Kafka` · `PostgreSQL` · `Testcontainers` · `OpenTelemetry` · `Kubernetes`
 
@@ -36,7 +29,13 @@ Production-style event-driven order processing platform.
 - Retry/DLT handling and distributed tracing
 - Integration tests with real PostgreSQL and Kafka
 
-**[View repository →](https://github.com/zakaria-source/eventflow)**
+**[View EventFlow →](https://github.com/zakaria-source/eventflow)**
+
+### NeetCode Java Practice
+
+Structured Java data structures & algorithms practice for technical interviews.
+
+**[View submissions →](https://github.com/zakaria-source/neetcode-submissions)**
 
 ### TrackMyJob
 
@@ -46,10 +45,10 @@ Job application dashboard for tracking applications, follow-ups, interviews and 
 
 ## Core Stack
 
-| Backend | Architecture | Cloud & Delivery |
-|---|---|---|
-| Java 17/21, Spring Boot, Hibernate, REST | Kafka, Microservices, DDD, Hexagonal Architecture | AWS, Docker, Kubernetes, Terraform, GitHub Actions |
+**Backend:** Java 17/21 · Spring Boot · Hibernate · REST APIs  
+**Architecture:** Kafka · Microservices · DDD · Hexagonal Architecture  
+**Cloud & Delivery:** AWS · Docker · Kubernetes · Terraform · GitHub Actions
 
-## Interview Practice
+---
 
-Java data structures & algorithms: **[NeetCode submissions →](https://github.com/zakaria-source/neetcode-submissions)**
+<sub>Older learning projects and reference forks are kept only for historical context and do not represent my current engineering focus.</sub>
